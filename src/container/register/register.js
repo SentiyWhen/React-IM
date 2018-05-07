@@ -13,7 +13,6 @@ class Register extends React.Component{
 
     render(){
         const RadioItem = Radio.RadioItem
-
         return(
             <div>
                 <Logo/>
@@ -24,10 +23,10 @@ class Register extends React.Component{
                         <InputItem>密码</InputItem>
                         <InputItem>确认密码</InputItem>
                     </List>
-                    <RadioItem  checked={this.state.type == 'genius'}>
+                    <RadioItem checked={this.state.type == 'genius'}>
                     牛人    
                     </RadioItem>
-                    <RadioItem  checked={this.state.type == 'boss'}>
+                    <RadioItem checked={this.state.type == 'boss'}>
                     BOSS    
                     </RadioItem>
                     <WhiteSpace/>

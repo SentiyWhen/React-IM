@@ -59,8 +59,6 @@ export function login({user,pwd}){
 				}
 			})		
 	}
-
-
 }
 //注册
 export function register({user,pwd,repeatpwd,type}){
@@ -80,5 +78,4 @@ export function register({user,pwd,repeatpwd,type}){
 				}
 			})		
 	}
-
 }
